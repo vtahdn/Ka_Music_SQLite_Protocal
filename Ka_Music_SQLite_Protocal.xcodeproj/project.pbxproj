@@ -8,12 +8,70 @@
 
 /* Begin PBXBuildFile section */
 		29D6477521D4D615002CEA25 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 29D6477421D4D615002CEA25 /* AppDelegate.swift */; };
-		29D6477721D4D615002CEA25 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 29D6477621D4D615002CEA25 /* ViewController.swift */; };
-		29D6477A21D4D615002CEA25 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 29D6477821D4D615002CEA25 /* Main.storyboard */; };
-		29D6477C21D4D616002CEA25 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 29D6477B21D4D616002CEA25 /* Assets.xcassets */; };
-		29D6477F21D4D616002CEA25 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 29D6477D21D4D616002CEA25 /* LaunchScreen.storyboard */; };
 		29D6478A21D4D616002CEA25 /* Ka_Music_SQLite_ProtocalTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 29D6478921D4D616002CEA25 /* Ka_Music_SQLite_ProtocalTests.swift */; };
 		29D6479521D4D616002CEA25 /* Ka_Music_SQLite_ProtocalUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 29D6479421D4D616002CEA25 /* Ka_Music_SQLite_ProtocalUITests.swift */; };
+		29D647EA21D4D640002CEA25 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 29D647A221D4D63E002CEA25 /* LaunchScreen.storyboard */; };
+		29D647EB21D4D640002CEA25 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 29D647A321D4D63E002CEA25 /* Main.storyboard */; };
+		29D647EC21D4D640002CEA25 /* Em gái mưa.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 29D647A621D4D63F002CEA25 /* Em gái mưa.mp3 */; };
+		29D647ED21D4D640002CEA25 /* Nơi này có anh.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 29D647A721D4D63F002CEA25 /* Nơi này có anh.mp3 */; };
+		29D647EE21D4D640002CEA25 /* Ánh nắng của anh.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 29D647A821D4D63F002CEA25 /* Ánh nắng của anh.mp3 */; };
+		29D647EF21D4D640002CEA25 /* Từ hôm nay.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 29D647A921D4D63F002CEA25 /* Từ hôm nay.mp3 */; };
+		29D647F021D4D640002CEA25 /* Cho anh hỏi.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 29D647AA21D4D63F002CEA25 /* Cho anh hỏi.mp3 */; };
+		29D647F121D4D640002CEA25 /* Có em chờ.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 29D647AB21D4D63F002CEA25 /* Có em chờ.mp3 */; };
+		29D647F221D4D640002CEA25 /* Hongkong1.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 29D647AC21D4D63F002CEA25 /* Hongkong1.mp3 */; };
+		29D647F321D4D640002CEA25 /* Đẹp nhất là em.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 29D647AD21D4D63F002CEA25 /* Đẹp nhất là em.mp3 */; };
+		29D647F421D4D640002CEA25 /* Chưa bao giờ mẹ kể.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 29D647AE21D4D63F002CEA25 /* Chưa bao giờ mẹ kể.mp3 */; };
+		29D647F521D4D640002CEA25 /* Muốn yêu ai đó cả cuộc đời.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 29D647AF21D4D63F002CEA25 /* Muốn yêu ai đó cả cuộc đời.mp3 */; };
+		29D647F621D4D640002CEA25 /* h2.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 29D647B221D4D63F002CEA25 /* h2.jpg */; };
+		29D647F721D4D640002CEA25 /* h1.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 29D647B321D4D63F002CEA25 /* h1.jpg */; };
+		29D647F821D4D640002CEA25 /* b2.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 29D647B521D4D63F002CEA25 /* b2.jpg */; };
+		29D647F921D4D640002CEA25 /* b1.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 29D647B621D4D63F002CEA25 /* b1.jpg */; };
+		29D647FA21D4D640002CEA25 /* bi2.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 29D647B821D4D63F002CEA25 /* bi2.jpg */; };
+		29D647FB21D4D640002CEA25 /* bi1.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 29D647B921D4D63F002CEA25 /* bi1.jpg */; };
+		29D647FC21D4D640002CEA25 /* 8.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 29D647BB21D4D63F002CEA25 /* 8.jpg */; };
+		29D647FD21D4D640002CEA25 /* 9.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 29D647BC21D4D63F002CEA25 /* 9.jpg */; };
+		29D647FE21D4D640002CEA25 /* 14.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 29D647BD21D4D63F002CEA25 /* 14.jpg */; };
+		29D647FF21D4D640002CEA25 /* 12.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 29D647BE21D4D63F002CEA25 /* 12.jpg */; };
+		29D6480021D4D640002CEA25 /* 13.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 29D647BF21D4D63F002CEA25 /* 13.jpg */; };
+		29D6480121D4D640002CEA25 /* 11.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 29D647C021D4D63F002CEA25 /* 11.jpg */; };
+		29D6480221D4D640002CEA25 /* 10.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 29D647C121D4D63F002CEA25 /* 10.jpg */; };
+		29D6480321D4D640002CEA25 /* 4.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 29D647C221D4D63F002CEA25 /* 4.jpg */; };
+		29D6480421D4D640002CEA25 /* 5.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 29D647C321D4D63F002CEA25 /* 5.jpg */; };
+		29D6480521D4D640002CEA25 /* 7.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 29D647C421D4D63F002CEA25 /* 7.jpg */; };
+		29D6480621D4D640002CEA25 /* 6.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 29D647C521D4D63F002CEA25 /* 6.jpg */; };
+		29D6480721D4D640002CEA25 /* 2.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 29D647C621D4D63F002CEA25 /* 2.jpg */; };
+		29D6480821D4D640002CEA25 /* 3.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 29D647C721D4D63F002CEA25 /* 3.jpg */; };
+		29D6480921D4D640002CEA25 /* 1.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 29D647C821D4D63F002CEA25 /* 1.jpg */; };
+		29D6480A21D4D640002CEA25 /* Protocol.swift in Sources */ = {isa = PBXBuildFile; fileRef = 29D647CA21D4D63F002CEA25 /* Protocol.swift */; };
+		29D6480B21D4D640002CEA25 /* AudioPlayer.swift in Sources */ = {isa = PBXBuildFile; fileRef = 29D647CC21D4D63F002CEA25 /* AudioPlayer.swift */; };
+		29D6480C21D4D640002CEA25 /* Label.swift in Sources */ = {isa = PBXBuildFile; fileRef = 29D647CD21D4D63F002CEA25 /* Label.swift */; };
+		29D6480D21D4D640002CEA25 /* Song.swift in Sources */ = {isa = PBXBuildFile; fileRef = 29D647CE21D4D63F002CEA25 /* Song.swift */; };
+		29D6480E21D4D640002CEA25 /* Album.swift in Sources */ = {isa = PBXBuildFile; fileRef = 29D647CF21D4D63F002CEA25 /* Album.swift */; };
+		29D6480F21D4D640002CEA25 /* Gener.swift in Sources */ = {isa = PBXBuildFile; fileRef = 29D647D021D4D63F002CEA25 /* Gener.swift */; };
+		29D6481021D4D640002CEA25 /* Artist.swift in Sources */ = {isa = PBXBuildFile; fileRef = 29D647D121D4D63F002CEA25 /* Artist.swift */; };
+		29D6481121D4D640002CEA25 /* DetailAlbum.swift in Sources */ = {isa = PBXBuildFile; fileRef = 29D647D221D4D63F002CEA25 /* DetailAlbum.swift */; };
+		29D6481221D4D640002CEA25 /* PlayList.swift in Sources */ = {isa = PBXBuildFile; fileRef = 29D647D321D4D63F002CEA25 /* PlayList.swift */; };
+		29D6481321D4D640002CEA25 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 29D647D421D4D63F002CEA25 /* Assets.xcassets */; };
+		29D6481421D4D640002CEA25 /* DataBase.swift in Sources */ = {isa = PBXBuildFile; fileRef = 29D647D621D4D640002CEA25 /* DataBase.swift */; };
+		29D6481521D4D640002CEA25 /* ListView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 29D647D921D4D640002CEA25 /* ListView.swift */; };
+		29D6481621D4D640002CEA25 /* UICollectionViewBase.swift in Sources */ = {isa = PBXBuildFile; fileRef = 29D647DA21D4D640002CEA25 /* UICollectionViewBase.swift */; };
+		29D6481721D4D640002CEA25 /* UITableViewControllerBase.swift in Sources */ = {isa = PBXBuildFile; fileRef = 29D647DB21D4D640002CEA25 /* UITableViewControllerBase.swift */; };
+		29D6481821D4D640002CEA25 /* UIViewControllerBase.swift in Sources */ = {isa = PBXBuildFile; fileRef = 29D647DC21D4D640002CEA25 /* UIViewControllerBase.swift */; };
+		29D6481921D4D640002CEA25 /* UITableViewCellBase.xib in Resources */ = {isa = PBXBuildFile; fileRef = 29D647DE21D4D640002CEA25 /* UITableViewCellBase.xib */; };
+		29D6481A21D4D640002CEA25 /* UITableViewCellBase.swift in Sources */ = {isa = PBXBuildFile; fileRef = 29D647DF21D4D640002CEA25 /* UITableViewCellBase.swift */; };
+		29D6481B21D4D640002CEA25 /* CollectionViewCellALBUM.swift in Sources */ = {isa = PBXBuildFile; fileRef = 29D647E121D4D640002CEA25 /* CollectionViewCellALBUM.swift */; };
+		29D6481C21D4D640002CEA25 /* CollectionViewCellALBUM.xib in Resources */ = {isa = PBXBuildFile; fileRef = 29D647E221D4D640002CEA25 /* CollectionViewCellALBUM.xib */; };
+		29D6481D21D4D640002CEA25 /* ViewArtists.swift in Sources */ = {isa = PBXBuildFile; fileRef = 29D647E421D4D640002CEA25 /* ViewArtists.swift */; };
+		29D6481E21D4D640002CEA25 /* ViewSongs.swift in Sources */ = {isa = PBXBuildFile; fileRef = 29D647E521D4D640002CEA25 /* ViewSongs.swift */; };
+		29D6481F21D4D640002CEA25 /* ViewAlbums.swift in Sources */ = {isa = PBXBuildFile; fileRef = 29D647E621D4D640002CEA25 /* ViewAlbums.swift */; };
+		29D6482021D4D640002CEA25 /* ViewPlaylists.swift in Sources */ = {isa = PBXBuildFile; fileRef = 29D647E721D4D640002CEA25 /* ViewPlaylists.swift */; };
+		29D6482121D4D640002CEA25 /* AddView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 29D647E921D4D640002CEA25 /* AddView.swift */; };
+		29D6483021D4D668002CEA25 /* FMDatabaseQueue.m in Sources */ = {isa = PBXBuildFile; fileRef = 29D6482421D4D668002CEA25 /* FMDatabaseQueue.m */; };
+		29D6483121D4D668002CEA25 /* FMResultSet.m in Sources */ = {isa = PBXBuildFile; fileRef = 29D6482621D4D668002CEA25 /* FMResultSet.m */; };
+		29D6483221D4D668002CEA25 /* FMDatabasePool.m in Sources */ = {isa = PBXBuildFile; fileRef = 29D6482921D4D668002CEA25 /* FMDatabasePool.m */; };
+		29D6483321D4D668002CEA25 /* FMDatabase.m in Sources */ = {isa = PBXBuildFile; fileRef = 29D6482D21D4D668002CEA25 /* FMDatabase.m */; };
+		29D6483421D4D668002CEA25 /* FMDatabaseAdditions.m in Sources */ = {isa = PBXBuildFile; fileRef = 29D6482E21D4D668002CEA25 /* FMDatabaseAdditions.m */; };
+		29D6483721D4D691002CEA25 /* libsqlite3.dylib in Frameworks */ = {isa = PBXBuildFile; fileRef = 29D6483621D4D691002CEA25 /* libsqlite3.dylib */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -36,10 +94,6 @@
 /* Begin PBXFileReference section */
 		29D6477121D4D615002CEA25 /* Ka_Music_SQLite_Protocal.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Ka_Music_SQLite_Protocal.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		29D6477421D4D615002CEA25 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
-		29D6477621D4D615002CEA25 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
-		29D6477921D4D615002CEA25 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
-		29D6477B21D4D616002CEA25 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
-		29D6477E21D4D616002CEA25 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		29D6478021D4D616002CEA25 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		29D6478521D4D616002CEA25 /* Ka_Music_SQLite_ProtocalTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = Ka_Music_SQLite_ProtocalTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		29D6478921D4D616002CEA25 /* Ka_Music_SQLite_ProtocalTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Ka_Music_SQLite_ProtocalTests.swift; sourceTree = "<group>"; };
@@ -47,6 +101,75 @@
 		29D6479021D4D616002CEA25 /* Ka_Music_SQLite_ProtocalUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = Ka_Music_SQLite_ProtocalUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		29D6479421D4D616002CEA25 /* Ka_Music_SQLite_ProtocalUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Ka_Music_SQLite_ProtocalUITests.swift; sourceTree = "<group>"; };
 		29D6479621D4D616002CEA25 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		29D647A221D4D63E002CEA25 /* LaunchScreen.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; path = LaunchScreen.storyboard; sourceTree = "<group>"; };
+		29D647A321D4D63E002CEA25 /* Main.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; path = Main.storyboard; sourceTree = "<group>"; };
+		29D647A621D4D63F002CEA25 /* Em gái mưa.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = "Em gái mưa.mp3"; sourceTree = "<group>"; };
+		29D647A721D4D63F002CEA25 /* Nơi này có anh.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = "Nơi này có anh.mp3"; sourceTree = "<group>"; };
+		29D647A821D4D63F002CEA25 /* Ánh nắng của anh.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = "Ánh nắng của anh.mp3"; sourceTree = "<group>"; };
+		29D647A921D4D63F002CEA25 /* Từ hôm nay.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = "Từ hôm nay.mp3"; sourceTree = "<group>"; };
+		29D647AA21D4D63F002CEA25 /* Cho anh hỏi.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = "Cho anh hỏi.mp3"; sourceTree = "<group>"; };
+		29D647AB21D4D63F002CEA25 /* Có em chờ.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = "Có em chờ.mp3"; sourceTree = "<group>"; };
+		29D647AC21D4D63F002CEA25 /* Hongkong1.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = Hongkong1.mp3; sourceTree = "<group>"; };
+		29D647AD21D4D63F002CEA25 /* Đẹp nhất là em.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = "Đẹp nhất là em.mp3"; sourceTree = "<group>"; };
+		29D647AE21D4D63F002CEA25 /* Chưa bao giờ mẹ kể.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = "Chưa bao giờ mẹ kể.mp3"; sourceTree = "<group>"; };
+		29D647AF21D4D63F002CEA25 /* Muốn yêu ai đó cả cuộc đời.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = "Muốn yêu ai đó cả cuộc đời.mp3"; sourceTree = "<group>"; };
+		29D647B221D4D63F002CEA25 /* h2.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = h2.jpg; sourceTree = "<group>"; };
+		29D647B321D4D63F002CEA25 /* h1.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = h1.jpg; sourceTree = "<group>"; };
+		29D647B521D4D63F002CEA25 /* b2.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = b2.jpg; sourceTree = "<group>"; };
+		29D647B621D4D63F002CEA25 /* b1.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = b1.jpg; sourceTree = "<group>"; };
+		29D647B821D4D63F002CEA25 /* bi2.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = bi2.jpg; sourceTree = "<group>"; };
+		29D647B921D4D63F002CEA25 /* bi1.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = bi1.jpg; sourceTree = "<group>"; };
+		29D647BB21D4D63F002CEA25 /* 8.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = 8.jpg; sourceTree = "<group>"; };
+		29D647BC21D4D63F002CEA25 /* 9.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = 9.jpg; sourceTree = "<group>"; };
+		29D647BD21D4D63F002CEA25 /* 14.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = 14.jpg; sourceTree = "<group>"; };
+		29D647BE21D4D63F002CEA25 /* 12.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = 12.jpg; sourceTree = "<group>"; };
+		29D647BF21D4D63F002CEA25 /* 13.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = 13.jpg; sourceTree = "<group>"; };
+		29D647C021D4D63F002CEA25 /* 11.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = 11.jpg; sourceTree = "<group>"; };
+		29D647C121D4D63F002CEA25 /* 10.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = 10.jpg; sourceTree = "<group>"; };
+		29D647C221D4D63F002CEA25 /* 4.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = 4.jpg; sourceTree = "<group>"; };
+		29D647C321D4D63F002CEA25 /* 5.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = 5.jpg; sourceTree = "<group>"; };
+		29D647C421D4D63F002CEA25 /* 7.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = 7.jpg; sourceTree = "<group>"; };
+		29D647C521D4D63F002CEA25 /* 6.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = 6.jpg; sourceTree = "<group>"; };
+		29D647C621D4D63F002CEA25 /* 2.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = 2.jpg; sourceTree = "<group>"; };
+		29D647C721D4D63F002CEA25 /* 3.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = 3.jpg; sourceTree = "<group>"; };
+		29D647C821D4D63F002CEA25 /* 1.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = 1.jpg; sourceTree = "<group>"; };
+		29D647CA21D4D63F002CEA25 /* Protocol.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Protocol.swift; sourceTree = "<group>"; };
+		29D647CC21D4D63F002CEA25 /* AudioPlayer.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AudioPlayer.swift; sourceTree = "<group>"; };
+		29D647CD21D4D63F002CEA25 /* Label.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Label.swift; sourceTree = "<group>"; };
+		29D647CE21D4D63F002CEA25 /* Song.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Song.swift; sourceTree = "<group>"; };
+		29D647CF21D4D63F002CEA25 /* Album.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Album.swift; sourceTree = "<group>"; };
+		29D647D021D4D63F002CEA25 /* Gener.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Gener.swift; sourceTree = "<group>"; };
+		29D647D121D4D63F002CEA25 /* Artist.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Artist.swift; sourceTree = "<group>"; };
+		29D647D221D4D63F002CEA25 /* DetailAlbum.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = DetailAlbum.swift; sourceTree = "<group>"; };
+		29D647D321D4D63F002CEA25 /* PlayList.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PlayList.swift; sourceTree = "<group>"; };
+		29D647D421D4D63F002CEA25 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		29D647D621D4D640002CEA25 /* DataBase.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = DataBase.swift; sourceTree = "<group>"; };
+		29D647D921D4D640002CEA25 /* ListView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ListView.swift; sourceTree = "<group>"; };
+		29D647DA21D4D640002CEA25 /* UICollectionViewBase.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = UICollectionViewBase.swift; sourceTree = "<group>"; };
+		29D647DB21D4D640002CEA25 /* UITableViewControllerBase.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = UITableViewControllerBase.swift; sourceTree = "<group>"; };
+		29D647DC21D4D640002CEA25 /* UIViewControllerBase.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = UIViewControllerBase.swift; sourceTree = "<group>"; };
+		29D647DE21D4D640002CEA25 /* UITableViewCellBase.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = UITableViewCellBase.xib; sourceTree = "<group>"; };
+		29D647DF21D4D640002CEA25 /* UITableViewCellBase.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = UITableViewCellBase.swift; sourceTree = "<group>"; };
+		29D647E121D4D640002CEA25 /* CollectionViewCellALBUM.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CollectionViewCellALBUM.swift; sourceTree = "<group>"; };
+		29D647E221D4D640002CEA25 /* CollectionViewCellALBUM.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = CollectionViewCellALBUM.xib; sourceTree = "<group>"; };
+		29D647E421D4D640002CEA25 /* ViewArtists.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ViewArtists.swift; sourceTree = "<group>"; };
+		29D647E521D4D640002CEA25 /* ViewSongs.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ViewSongs.swift; sourceTree = "<group>"; };
+		29D647E621D4D640002CEA25 /* ViewAlbums.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ViewAlbums.swift; sourceTree = "<group>"; };
+		29D647E721D4D640002CEA25 /* ViewPlaylists.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ViewPlaylists.swift; sourceTree = "<group>"; };
+		29D647E921D4D640002CEA25 /* AddView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AddView.swift; sourceTree = "<group>"; };
+		29D6482321D4D667002CEA25 /* Ka_Music_SQLite_Protocal-Bridging-Header.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "Ka_Music_SQLite_Protocal-Bridging-Header.h"; sourceTree = "<group>"; };
+		29D6482421D4D668002CEA25 /* FMDatabaseQueue.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FMDatabaseQueue.m; sourceTree = "<group>"; };
+		29D6482521D4D668002CEA25 /* FMResultSet.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FMResultSet.h; sourceTree = "<group>"; };
+		29D6482621D4D668002CEA25 /* FMResultSet.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FMResultSet.m; sourceTree = "<group>"; };
+		29D6482821D4D668002CEA25 /* FMDatabase.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FMDatabase.h; sourceTree = "<group>"; };
+		29D6482921D4D668002CEA25 /* FMDatabasePool.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FMDatabasePool.m; sourceTree = "<group>"; };
+		29D6482A21D4D668002CEA25 /* FMDatabaseQueue.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FMDatabaseQueue.h; sourceTree = "<group>"; };
+		29D6482B21D4D668002CEA25 /* FMDB.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FMDB.h; sourceTree = "<group>"; };
+		29D6482C21D4D668002CEA25 /* FMDatabasePool.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FMDatabasePool.h; sourceTree = "<group>"; };
+		29D6482D21D4D668002CEA25 /* FMDatabase.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FMDatabase.m; sourceTree = "<group>"; };
+		29D6482E21D4D668002CEA25 /* FMDatabaseAdditions.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FMDatabaseAdditions.m; sourceTree = "<group>"; };
+		29D6482F21D4D668002CEA25 /* FMDatabaseAdditions.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FMDatabaseAdditions.h; sourceTree = "<group>"; };
+		29D6483621D4D691002CEA25 /* libsqlite3.dylib */ = {isa = PBXFileReference; lastKnownFileType = "compiled.mach-o.dylib"; name = libsqlite3.dylib; path = "../../1. SQLite ( Phân tích dữ liệu )/SQLITE_MUSIC/libsqlite3.dylib"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -54,6 +177,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				29D6483721D4D691002CEA25 /* libsqlite3.dylib in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -81,6 +205,7 @@
 				29D6478821D4D616002CEA25 /* Ka_Music_SQLite_ProtocalTests */,
 				29D6479321D4D616002CEA25 /* Ka_Music_SQLite_ProtocalUITests */,
 				29D6477221D4D615002CEA25 /* Products */,
+				29D6483521D4D691002CEA25 /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -97,11 +222,16 @@
 		29D6477321D4D615002CEA25 /* Ka_Music_SQLite_Protocal */ = {
 			isa = PBXGroup;
 			children = (
+				29D6482221D4D65B002CEA25 /* fmdb */,
+				29D647D521D4D640002CEA25 /* Database */,
+				29D647CB21D4D63F002CEA25 /* Model */,
+				29D647C921D4D63F002CEA25 /* Protocal */,
+				29D647A421D4D63F002CEA25 /* Resouce */,
+				29D647D721D4D640002CEA25 /* Views */,
+				29D647A221D4D63E002CEA25 /* LaunchScreen.storyboard */,
+				29D647A321D4D63E002CEA25 /* Main.storyboard */,
 				29D6477421D4D615002CEA25 /* AppDelegate.swift */,
-				29D6477621D4D615002CEA25 /* ViewController.swift */,
-				29D6477821D4D615002CEA25 /* Main.storyboard */,
-				29D6477B21D4D616002CEA25 /* Assets.xcassets */,
-				29D6477D21D4D616002CEA25 /* LaunchScreen.storyboard */,
+				29D647D421D4D63F002CEA25 /* Assets.xcassets */,
 				29D6478021D4D616002CEA25 /* Info.plist */,
 			);
 			path = Ka_Music_SQLite_Protocal;
@@ -123,6 +253,209 @@
 				29D6479621D4D616002CEA25 /* Info.plist */,
 			);
 			path = Ka_Music_SQLite_ProtocalUITests;
+			sourceTree = "<group>";
+		};
+		29D647A421D4D63F002CEA25 /* Resouce */ = {
+			isa = PBXGroup;
+			children = (
+				29D647A521D4D63F002CEA25 /* Music */,
+				29D647B021D4D63F002CEA25 /* Img */,
+			);
+			path = Resouce;
+			sourceTree = "<group>";
+		};
+		29D647A521D4D63F002CEA25 /* Music */ = {
+			isa = PBXGroup;
+			children = (
+				29D647A621D4D63F002CEA25 /* Em gái mưa.mp3 */,
+				29D647A721D4D63F002CEA25 /* Nơi này có anh.mp3 */,
+				29D647A821D4D63F002CEA25 /* Ánh nắng của anh.mp3 */,
+				29D647A921D4D63F002CEA25 /* Từ hôm nay.mp3 */,
+				29D647AA21D4D63F002CEA25 /* Cho anh hỏi.mp3 */,
+				29D647AB21D4D63F002CEA25 /* Có em chờ.mp3 */,
+				29D647AC21D4D63F002CEA25 /* Hongkong1.mp3 */,
+				29D647AD21D4D63F002CEA25 /* Đẹp nhất là em.mp3 */,
+				29D647AE21D4D63F002CEA25 /* Chưa bao giờ mẹ kể.mp3 */,
+				29D647AF21D4D63F002CEA25 /* Muốn yêu ai đó cả cuộc đời.mp3 */,
+			);
+			path = Music;
+			sourceTree = "<group>";
+		};
+		29D647B021D4D63F002CEA25 /* Img */ = {
+			isa = PBXGroup;
+			children = (
+				29D647B121D4D63F002CEA25 /* Hoang */,
+				29D647B421D4D63F002CEA25 /* Be */,
+				29D647B721D4D63F002CEA25 /* Bii */,
+				29D647BA21D4D63F002CEA25 /* Ka */,
+			);
+			path = Img;
+			sourceTree = "<group>";
+		};
+		29D647B121D4D63F002CEA25 /* Hoang */ = {
+			isa = PBXGroup;
+			children = (
+				29D647B221D4D63F002CEA25 /* h2.jpg */,
+				29D647B321D4D63F002CEA25 /* h1.jpg */,
+			);
+			path = Hoang;
+			sourceTree = "<group>";
+		};
+		29D647B421D4D63F002CEA25 /* Be */ = {
+			isa = PBXGroup;
+			children = (
+				29D647B521D4D63F002CEA25 /* b2.jpg */,
+				29D647B621D4D63F002CEA25 /* b1.jpg */,
+			);
+			path = Be;
+			sourceTree = "<group>";
+		};
+		29D647B721D4D63F002CEA25 /* Bii */ = {
+			isa = PBXGroup;
+			children = (
+				29D647B821D4D63F002CEA25 /* bi2.jpg */,
+				29D647B921D4D63F002CEA25 /* bi1.jpg */,
+			);
+			path = Bii;
+			sourceTree = "<group>";
+		};
+		29D647BA21D4D63F002CEA25 /* Ka */ = {
+			isa = PBXGroup;
+			children = (
+				29D647BB21D4D63F002CEA25 /* 8.jpg */,
+				29D647BC21D4D63F002CEA25 /* 9.jpg */,
+				29D647BD21D4D63F002CEA25 /* 14.jpg */,
+				29D647BE21D4D63F002CEA25 /* 12.jpg */,
+				29D647BF21D4D63F002CEA25 /* 13.jpg */,
+				29D647C021D4D63F002CEA25 /* 11.jpg */,
+				29D647C121D4D63F002CEA25 /* 10.jpg */,
+				29D647C221D4D63F002CEA25 /* 4.jpg */,
+				29D647C321D4D63F002CEA25 /* 5.jpg */,
+				29D647C421D4D63F002CEA25 /* 7.jpg */,
+				29D647C521D4D63F002CEA25 /* 6.jpg */,
+				29D647C621D4D63F002CEA25 /* 2.jpg */,
+				29D647C721D4D63F002CEA25 /* 3.jpg */,
+				29D647C821D4D63F002CEA25 /* 1.jpg */,
+			);
+			path = Ka;
+			sourceTree = "<group>";
+		};
+		29D647C921D4D63F002CEA25 /* Protocal */ = {
+			isa = PBXGroup;
+			children = (
+				29D647CA21D4D63F002CEA25 /* Protocol.swift */,
+			);
+			path = Protocal;
+			sourceTree = "<group>";
+		};
+		29D647CB21D4D63F002CEA25 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				29D647CC21D4D63F002CEA25 /* AudioPlayer.swift */,
+				29D647CD21D4D63F002CEA25 /* Label.swift */,
+				29D647CE21D4D63F002CEA25 /* Song.swift */,
+				29D647CF21D4D63F002CEA25 /* Album.swift */,
+				29D647D021D4D63F002CEA25 /* Gener.swift */,
+				29D647D121D4D63F002CEA25 /* Artist.swift */,
+				29D647D221D4D63F002CEA25 /* DetailAlbum.swift */,
+				29D647D321D4D63F002CEA25 /* PlayList.swift */,
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		29D647D521D4D640002CEA25 /* Database */ = {
+			isa = PBXGroup;
+			children = (
+				29D647D621D4D640002CEA25 /* DataBase.swift */,
+			);
+			path = Database;
+			sourceTree = "<group>";
+		};
+		29D647D721D4D640002CEA25 /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				29D647D821D4D640002CEA25 /* ViewBase */,
+				29D647DD21D4D640002CEA25 /* TableView */,
+				29D647E021D4D640002CEA25 /* CollectionView */,
+				29D647E321D4D640002CEA25 /* View */,
+				29D647E821D4D640002CEA25 /* AddView */,
+			);
+			path = Views;
+			sourceTree = "<group>";
+		};
+		29D647D821D4D640002CEA25 /* ViewBase */ = {
+			isa = PBXGroup;
+			children = (
+				29D647D921D4D640002CEA25 /* ListView.swift */,
+				29D647DA21D4D640002CEA25 /* UICollectionViewBase.swift */,
+				29D647DB21D4D640002CEA25 /* UITableViewControllerBase.swift */,
+				29D647DC21D4D640002CEA25 /* UIViewControllerBase.swift */,
+			);
+			path = ViewBase;
+			sourceTree = "<group>";
+		};
+		29D647DD21D4D640002CEA25 /* TableView */ = {
+			isa = PBXGroup;
+			children = (
+				29D647DE21D4D640002CEA25 /* UITableViewCellBase.xib */,
+				29D647DF21D4D640002CEA25 /* UITableViewCellBase.swift */,
+			);
+			path = TableView;
+			sourceTree = "<group>";
+		};
+		29D647E021D4D640002CEA25 /* CollectionView */ = {
+			isa = PBXGroup;
+			children = (
+				29D647E121D4D640002CEA25 /* CollectionViewCellALBUM.swift */,
+				29D647E221D4D640002CEA25 /* CollectionViewCellALBUM.xib */,
+			);
+			path = CollectionView;
+			sourceTree = "<group>";
+		};
+		29D647E321D4D640002CEA25 /* View */ = {
+			isa = PBXGroup;
+			children = (
+				29D647E421D4D640002CEA25 /* ViewArtists.swift */,
+				29D647E521D4D640002CEA25 /* ViewSongs.swift */,
+				29D647E621D4D640002CEA25 /* ViewAlbums.swift */,
+				29D647E721D4D640002CEA25 /* ViewPlaylists.swift */,
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		29D647E821D4D640002CEA25 /* AddView */ = {
+			isa = PBXGroup;
+			children = (
+				29D647E921D4D640002CEA25 /* AddView.swift */,
+			);
+			path = AddView;
+			sourceTree = "<group>";
+		};
+		29D6482221D4D65B002CEA25 /* fmdb */ = {
+			isa = PBXGroup;
+			children = (
+				29D6482821D4D668002CEA25 /* FMDatabase.h */,
+				29D6482D21D4D668002CEA25 /* FMDatabase.m */,
+				29D6482F21D4D668002CEA25 /* FMDatabaseAdditions.h */,
+				29D6482E21D4D668002CEA25 /* FMDatabaseAdditions.m */,
+				29D6482C21D4D668002CEA25 /* FMDatabasePool.h */,
+				29D6482921D4D668002CEA25 /* FMDatabasePool.m */,
+				29D6482A21D4D668002CEA25 /* FMDatabaseQueue.h */,
+				29D6482421D4D668002CEA25 /* FMDatabaseQueue.m */,
+				29D6482B21D4D668002CEA25 /* FMDB.h */,
+				29D6482521D4D668002CEA25 /* FMResultSet.h */,
+				29D6482621D4D668002CEA25 /* FMResultSet.m */,
+				29D6482321D4D667002CEA25 /* Ka_Music_SQLite_Protocal-Bridging-Header.h */,
+			);
+			path = fmdb;
+			sourceTree = "<group>";
+		};
+		29D6483521D4D691002CEA25 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				29D6483621D4D691002CEA25 /* libsqlite3.dylib */,
+			);
+			name = Frameworks;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -193,6 +526,7 @@
 				TargetAttributes = {
 					29D6477021D4D615002CEA25 = {
 						CreatedOnToolsVersion = 10.1;
+						LastSwiftMigration = 1010;
 					};
 					29D6478421D4D616002CEA25 = {
 						CreatedOnToolsVersion = 10.1;
@@ -229,9 +563,41 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				29D6477F21D4D616002CEA25 /* LaunchScreen.storyboard in Resources */,
-				29D6477C21D4D616002CEA25 /* Assets.xcassets in Resources */,
-				29D6477A21D4D615002CEA25 /* Main.storyboard in Resources */,
+				29D6481921D4D640002CEA25 /* UITableViewCellBase.xib in Resources */,
+				29D6480221D4D640002CEA25 /* 10.jpg in Resources */,
+				29D647FC21D4D640002CEA25 /* 8.jpg in Resources */,
+				29D647FB21D4D640002CEA25 /* bi1.jpg in Resources */,
+				29D6480521D4D640002CEA25 /* 7.jpg in Resources */,
+				29D6480421D4D640002CEA25 /* 5.jpg in Resources */,
+				29D6480921D4D640002CEA25 /* 1.jpg in Resources */,
+				29D647F821D4D640002CEA25 /* b2.jpg in Resources */,
+				29D647FE21D4D640002CEA25 /* 14.jpg in Resources */,
+				29D6481C21D4D640002CEA25 /* CollectionViewCellALBUM.xib in Resources */,
+				29D647F621D4D640002CEA25 /* h2.jpg in Resources */,
+				29D647F121D4D640002CEA25 /* Có em chờ.mp3 in Resources */,
+				29D647F221D4D640002CEA25 /* Hongkong1.mp3 in Resources */,
+				29D647EA21D4D640002CEA25 /* LaunchScreen.storyboard in Resources */,
+				29D6480821D4D640002CEA25 /* 3.jpg in Resources */,
+				29D6481321D4D640002CEA25 /* Assets.xcassets in Resources */,
+				29D647FF21D4D640002CEA25 /* 12.jpg in Resources */,
+				29D6480721D4D640002CEA25 /* 2.jpg in Resources */,
+				29D647F321D4D640002CEA25 /* Đẹp nhất là em.mp3 in Resources */,
+				29D647EF21D4D640002CEA25 /* Từ hôm nay.mp3 in Resources */,
+				29D6480321D4D640002CEA25 /* 4.jpg in Resources */,
+				29D647F721D4D640002CEA25 /* h1.jpg in Resources */,
+				29D647F921D4D640002CEA25 /* b1.jpg in Resources */,
+				29D647EB21D4D640002CEA25 /* Main.storyboard in Resources */,
+				29D6480021D4D640002CEA25 /* 13.jpg in Resources */,
+				29D6480121D4D640002CEA25 /* 11.jpg in Resources */,
+				29D647ED21D4D640002CEA25 /* Nơi này có anh.mp3 in Resources */,
+				29D647FD21D4D640002CEA25 /* 9.jpg in Resources */,
+				29D647F521D4D640002CEA25 /* Muốn yêu ai đó cả cuộc đời.mp3 in Resources */,
+				29D647F021D4D640002CEA25 /* Cho anh hỏi.mp3 in Resources */,
+				29D647F421D4D640002CEA25 /* Chưa bao giờ mẹ kể.mp3 in Resources */,
+				29D647FA21D4D640002CEA25 /* bi2.jpg in Resources */,
+				29D647EC21D4D640002CEA25 /* Em gái mưa.mp3 in Resources */,
+				29D647EE21D4D640002CEA25 /* Ánh nắng của anh.mp3 in Resources */,
+				29D6480621D4D640002CEA25 /* 6.jpg in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -256,8 +622,33 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				29D6477721D4D615002CEA25 /* ViewController.swift in Sources */,
+				29D6481A21D4D640002CEA25 /* UITableViewCellBase.swift in Sources */,
+				29D6481E21D4D640002CEA25 /* ViewSongs.swift in Sources */,
 				29D6477521D4D615002CEA25 /* AppDelegate.swift in Sources */,
+				29D6481221D4D640002CEA25 /* PlayList.swift in Sources */,
+				29D6481821D4D640002CEA25 /* UIViewControllerBase.swift in Sources */,
+				29D6480F21D4D640002CEA25 /* Gener.swift in Sources */,
+				29D6483121D4D668002CEA25 /* FMResultSet.m in Sources */,
+				29D6482121D4D640002CEA25 /* AddView.swift in Sources */,
+				29D6481F21D4D640002CEA25 /* ViewAlbums.swift in Sources */,
+				29D6481D21D4D640002CEA25 /* ViewArtists.swift in Sources */,
+				29D6481621D4D640002CEA25 /* UICollectionViewBase.swift in Sources */,
+				29D6480A21D4D640002CEA25 /* Protocol.swift in Sources */,
+				29D6483221D4D668002CEA25 /* FMDatabasePool.m in Sources */,
+				29D6480C21D4D640002CEA25 /* Label.swift in Sources */,
+				29D6483021D4D668002CEA25 /* FMDatabaseQueue.m in Sources */,
+				29D6483321D4D668002CEA25 /* FMDatabase.m in Sources */,
+				29D6481121D4D640002CEA25 /* DetailAlbum.swift in Sources */,
+				29D6481421D4D640002CEA25 /* DataBase.swift in Sources */,
+				29D6482021D4D640002CEA25 /* ViewPlaylists.swift in Sources */,
+				29D6481721D4D640002CEA25 /* UITableViewControllerBase.swift in Sources */,
+				29D6480B21D4D640002CEA25 /* AudioPlayer.swift in Sources */,
+				29D6481521D4D640002CEA25 /* ListView.swift in Sources */,
+				29D6481B21D4D640002CEA25 /* CollectionViewCellALBUM.swift in Sources */,
+				29D6483421D4D668002CEA25 /* FMDatabaseAdditions.m in Sources */,
+				29D6480D21D4D640002CEA25 /* Song.swift in Sources */,
+				29D6481021D4D640002CEA25 /* Artist.swift in Sources */,
+				29D6480E21D4D640002CEA25 /* Album.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -291,25 +682,6 @@
 			targetProxy = 29D6479121D4D616002CEA25 /* PBXContainerItemProxy */;
 		};
 /* End PBXTargetDependency section */
-
-/* Begin PBXVariantGroup section */
-		29D6477821D4D615002CEA25 /* Main.storyboard */ = {
-			isa = PBXVariantGroup;
-			children = (
-				29D6477921D4D615002CEA25 /* Base */,
-			);
-			name = Main.storyboard;
-			sourceTree = "<group>";
-		};
-		29D6477D21D4D616002CEA25 /* LaunchScreen.storyboard */ = {
-			isa = PBXVariantGroup;
-			children = (
-				29D6477E21D4D616002CEA25 /* Base */,
-			);
-			name = LaunchScreen.storyboard;
-			sourceTree = "<group>";
-		};
-/* End PBXVariantGroup section */
 
 /* Begin XCBuildConfiguration section */
 		29D6479721D4D616002CEA25 /* Debug */ = {
@@ -432,6 +804,7 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CLANG_ENABLE_MODULES = YES;
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = AGY9E5E6J5;
 				INFOPLIST_FILE = Ka_Music_SQLite_Protocal/Info.plist;
@@ -441,6 +814,8 @@
 				);
 				PRODUCT_BUNDLE_IDENTIFIER = "Senegal.Ka-Music-SQLite-Protocal";
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_OBJC_BRIDGING_HEADER = "Ka_Music_SQLite_Protocal/fmdb/Ka_Music_SQLite_Protocal-Bridging-Header.h";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
 				SWIFT_VERSION = 4.2;
 				TARGETED_DEVICE_FAMILY = "1,2";
 			};
@@ -450,6 +825,7 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CLANG_ENABLE_MODULES = YES;
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = AGY9E5E6J5;
 				INFOPLIST_FILE = Ka_Music_SQLite_Protocal/Info.plist;
@@ -459,6 +835,7 @@
 				);
 				PRODUCT_BUNDLE_IDENTIFIER = "Senegal.Ka-Music-SQLite-Protocal";
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_OBJC_BRIDGING_HEADER = "Ka_Music_SQLite_Protocal/fmdb/Ka_Music_SQLite_Protocal-Bridging-Header.h";
 				SWIFT_VERSION = 4.2;
 				TARGETED_DEVICE_FAMILY = "1,2";
 			};
